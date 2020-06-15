@@ -1,0 +1,2 @@
+#!/bin/sh
+java -ea -Xmx2G -Xms128m -Xss10m -classpath "/home/murad/typechef/targets/TypeChef-BusyboxAnalysis/target/scala-2.12/classes:/home/murad/typechef/targets/TypeChef-BusyboxAnalysis/lib/TypeChef-0.4.2.jar:/home/murad/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.12.1.jar:/home/murad/.ivy2/cache/com.github.scopt/scopt_2.12/jars/scopt_2.12-3.5.0.jar:/home/murad/.ivy2/cache/org.scala-lang.modules/scala-parser-combinators_2.12/bundles/scala-parser-combinators_2.12-1.0.4.jar"  "$@"
